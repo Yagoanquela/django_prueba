@@ -9,4 +9,4 @@ def index(request):
     df = pd.read_sql_query("select * from books", con= engine)
     return HttpResponse(json.dumps(df.values.tolist()))
  
-
+#desde aqui se le pueden poner cualquier query para que de una entrada en concreto de la libreria

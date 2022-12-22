@@ -81,6 +81,18 @@ DATABASES = {
     }
 }
 
+""" con esto el modelo tiraría de aqui y no de la base de datos de sqlite
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'myproject',
+        'USER': 'myprojectuser',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}"""
+
 #lack of street
 
 # Password validation
