@@ -1,1 +1,1 @@
-gunicorn 'mysite.wsgi
+gunicorn 'mysite.wsgi'
